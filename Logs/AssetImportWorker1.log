@@ -1,0 +1,1979 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.24f1 (79c78de19888) revision 7980941'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17134) 64bit Education' Language: 'cs' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/plasek_daniel/Desktop/Plntsct/Plntsct
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51659
+Successfully changed project path to: C:/Users/plasek_daniel/Desktop/Plntsct/Plntsct
+C:/Users/plasek_daniel/Desktop/Plntsct/Plntsct
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.24f1 (79c78de19888)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/plasek_daniel/Desktop/Plntsct/Plntsct/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 630 (ID=0x5912)
+    Vendor:   
+    VRAM:     4033 MB
+    Driver:   26.20.100.7263
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001529 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (568ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (446ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 3.139011 ms (FindLiveObjects: 0.234274 ms CreateObjectMapping: 0.125906 ms MarkObjects: 2.692713 ms  DeleteObjects: 0.085072 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(15ec2aa5553e6fc44b5a92aca12123a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(15ec2aa5553e6fc44b5a92aca12123a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa35afc4082a1778514472b298f8f677') in 0.017184 seconds 
+  Import took 0.020820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ade50b3acaaf61dcc6d8925c535672') in 0.012432 seconds 
+  Import took 0.015774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.305434 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(8dd07f16924ce2a44aa837de9455bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(8dd07f16924ce2a44aa837de9455bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4fe9fe0d4f42b3f6437a4539b42b70b') in 0.019466 seconds 
+  Import took 0.028641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 432.941711 seconds.
+  path: Assets/Moje obrazky mrdko
+  artifactKey: Guid(6333c53ce57fcb74eb0454642d144ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko using Guid(6333c53ce57fcb74eb0454642d144ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd880dc7c38236de4a70ff42c8d714ff7') in 0.121993 seconds 
+  Import took 0.185445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.085318 seconds.
+  path: Assets/Moje obrazky mrdko/ZadniPlocha.png
+  artifactKey: Guid(f9b0440e34acc8f43a643b7cc4a6a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/ZadniPlocha.png using Guid(f9b0440e34acc8f43a643b7cc4a6a013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292de7307ab8a7ad82627c1d7d8b3e97') in 0.766770 seconds 
+  Import took 0.804565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.511466 seconds.
+  path: Assets/Moje obrazky mrdko/StartLogo.png
+  artifactKey: Guid(53690d5049f4b0f4b9584da43218e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/StartLogo.png using Guid(53690d5049f4b0f4b9584da43218e22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000e5469fd3c1b4bb252e3a45cdebe4b') in 0.085923 seconds 
+  Import took 0.100238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.320146 seconds.
+  path: Assets/Moje obrazky mrdko/ExitLogo.png
+  artifactKey: Guid(22198cc908121704993c9c79f1808e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/ExitLogo.png using Guid(22198cc908121704993c9c79f1808e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df2be67b536543e85f48a83847261c4') in 0.062543 seconds 
+  Import took 0.087271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.114161 seconds.
+  path: Assets/Moje obrazky mrdko/Nazev.png
+  artifactKey: Guid(855d6f0c50c11c54b8226d6005127734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/Nazev.png using Guid(855d6f0c50c11c54b8226d6005127734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5365845ce06d308ba1b6593ed72ae24e') in 0.083666 seconds 
+  Import took 0.101875 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (779ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.1 MB.
+System memory in use after: 100.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 5.215020 ms (FindLiveObjects: 0.324581 ms CreateObjectMapping: 0.138994 ms MarkObjects: 4.706423 ms  DeleteObjects: 0.042928 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1107ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (323ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (233ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.1 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 4.004648 ms (FindLiveObjects: 0.349448 ms CreateObjectMapping: 0.178519 ms MarkObjects: 3.445531 ms  DeleteObjects: 0.029579 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1374ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1200ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2700.
+Total: 3.084304 ms (FindLiveObjects: 0.267517 ms CreateObjectMapping: 0.093710 ms MarkObjects: 2.698733 ms  DeleteObjects: 0.022511 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1039ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 3.177752 ms (FindLiveObjects: 0.218307 ms CreateObjectMapping: 0.116744 ms MarkObjects: 2.815739 ms  DeleteObjects: 0.025129 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1250ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1082ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 3.417785 ms (FindLiveObjects: 0.326675 ms CreateObjectMapping: 0.151558 ms MarkObjects: 2.914161 ms  DeleteObjects: 0.023820 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004974 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.134 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (965ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (369ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2223 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2706.
+Total: 4.912951 ms (FindLiveObjects: 0.257047 ms CreateObjectMapping: 0.128785 ms MarkObjects: 4.498063 ms  DeleteObjects: 0.027223 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1356ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 3.744460 ms (FindLiveObjects: 0.333219 ms CreateObjectMapping: 0.154176 ms MarkObjects: 3.231936 ms  DeleteObjects: 0.023035 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1096.312611 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c912eef681f6d9178da9f9a7db6547e7') in 0.102852 seconds 
+  Import took 0.106758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 360.543775 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23be9d00b2a49bf2dfeda4be4c1fc148') in 0.006047 seconds 
+  Import took 0.014563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.215789 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31bfc70a6d0250c475e1c08cb9f33f4') in 0.008458 seconds 
+  Import took 0.018685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.049584 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b92deacbc755f6b01d38f8ba5e9f085') in 0.005783 seconds 
+  Import took 0.010793 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1088ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (310ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 3.003682 ms (FindLiveObjects: 0.236630 ms CreateObjectMapping: 0.100515 ms MarkObjects: 2.643764 ms  DeleteObjects: 0.021464 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.961073 seconds.
+  path: Assets/SceneLoader.cs
+  artifactKey: Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SceneLoader.cs using Guid(ff89fe469188de040904e01fc0d4ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccd8169557fd7f82eac7f641e493bee') in 0.004644 seconds 
+  Import took 0.007997 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005025 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 3.092680 ms (FindLiveObjects: 0.256524 ms CreateObjectMapping: 0.106536 ms MarkObjects: 2.702921 ms  DeleteObjects: 0.025129 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.380740 seconds.
+  path: Assets/M.unity
+  artifactKey: Guid(8e485d1006762aa479f916dc70039e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/M.unity using Guid(8e485d1006762aa479f916dc70039e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b6223716240064755e94c764921c18') in 0.021295 seconds 
+  Import took 0.025801 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.936410 ms (FindLiveObjects: 0.230348 ms CreateObjectMapping: 0.095542 ms MarkObjects: 2.589580 ms  DeleteObjects: 0.020155 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (345ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 3.342660 ms (FindLiveObjects: 0.225113 ms CreateObjectMapping: 0.084810 ms MarkObjects: 3.011273 ms  DeleteObjects: 0.019894 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.315696 seconds.
+  path: Assets/Scenes/Levels.unity
+  artifactKey: Guid(6046cbe6339c46a4c96a1fa5ccf66a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels.unity using Guid(6046cbe6339c46a4c96a1fa5ccf66a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa34f31d1b297d2638c4404b9996b161') in 0.033813 seconds 
+  Import took 0.041350 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.985 seconds
+Domain Reload Profiling:
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 3.017555 ms (FindLiveObjects: 0.229039 ms CreateObjectMapping: 0.106798 ms MarkObjects: 2.658422 ms  DeleteObjects: 0.021726 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.521863 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(8dd07f16924ce2a44aa837de9455bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(8dd07f16924ce2a44aa837de9455bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e489418a8dc8b2df0cf46b9a4118c9') in 0.024811 seconds 
+  Import took 0.029297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.898350 seconds.
+  path: Assets/Moje obrazky mrdko/level5.png
+  artifactKey: Guid(7b546990d29983342befd0f97e860dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/level5.png using Guid(7b546990d29983342befd0f97e860dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e23eee91a2ba437d71c376c2ab7a679') in 0.058224 seconds 
+  Import took 0.064236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.972352 seconds.
+  path: Assets/Moje obrazky mrdko/level4.png
+  artifactKey: Guid(086f401cc01b21b499b43d8548cb906a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/level4.png using Guid(086f401cc01b21b499b43d8548cb906a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7099cdea8d00cf6586236e0ba215ef06') in 0.026831 seconds 
+  Import took 0.031255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.863909 seconds.
+  path: Assets/Moje obrazky mrdko/level3.png
+  artifactKey: Guid(f6f5bf91c2aa6294bb24e03f454d9219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/level3.png using Guid(f6f5bf91c2aa6294bb24e03f454d9219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08b731bc185c7bc2cd79eece6420bbf') in 0.045960 seconds 
+  Import took 0.050888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.526884 seconds.
+  path: Assets/Moje obrazky mrdko/level2.png
+  artifactKey: Guid(29ea5b0ed9a62be40811e4590b62ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/level2.png using Guid(29ea5b0ed9a62be40811e4590b62ee8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96730afdb5031a14adebcdbb44bac7b') in 0.029912 seconds 
+  Import took 0.034680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.053214 seconds.
+  path: Assets/Moje obrazky mrdko/level1.png
+  artifactKey: Guid(5765a06b804e9d949810a678b1f865a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/level1.png using Guid(5765a06b804e9d949810a678b1f865a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e58069dd18eddea697ab96f3a0bbba7') in 0.023709 seconds 
+  Import took 0.029431 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.048315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1511ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (1187ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 5.355585 ms (FindLiveObjects: 0.372483 ms CreateObjectMapping: 0.182184 ms MarkObjects: 4.763748 ms  DeleteObjects: 0.035076 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 648.588573 seconds.
+  path: Assets/Scenes/Levels.unity
+  artifactKey: Guid(6046cbe6339c46a4c96a1fa5ccf66a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels.unity using Guid(6046cbe6339c46a4c96a1fa5ccf66a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6dd01adb104c807bf6124964025605') in 0.102708 seconds 
+  Import took 0.204578 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 4.602767 ms (FindLiveObjects: 0.293955 ms CreateObjectMapping: 0.121456 ms MarkObjects: 4.157253 ms  DeleteObjects: 0.027746 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 256.239914 seconds.
+  path: Assets/Moje obrazky mrdko/levels.png
+  artifactKey: Guid(6db5d90e3e2d8b14097ad041321b8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje obrazky mrdko/levels.png using Guid(6db5d90e3e2d8b14097ad041321b8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60282ea598be2438c113babc5569408b') in 0.276453 seconds 
+  Import took 0.291405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.349834 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00009.png
+  artifactKey: Guid(c54150e5f7d97f44583677d046260703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00009.png using Guid(c54150e5f7d97f44583677d046260703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0e787d0358dc449c1d057b10ddec3b') in 0.222138 seconds 
+  Import took 0.228027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00000.png
+  artifactKey: Guid(7c9d1a63f2d054540a21df294c97e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00000.png using Guid(7c9d1a63f2d054540a21df294c97e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccff49df982bda044b9b95a9bf255e8') in 0.060594 seconds 
+  Import took 0.066479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00001.png
+  artifactKey: Guid(e3213c5231ed43d49a0e95c612e81de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00001.png using Guid(e3213c5231ed43d49a0e95c612e81de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7ad64842e50e0c1d3b3c97c6045557') in 0.069823 seconds 
+  Import took 0.074538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00004.png
+  artifactKey: Guid(615be9626fb565941a27a1555108c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00004.png using Guid(615be9626fb565941a27a1555108c4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc43c5367d37ac26cee02df0d3f3f53') in 0.073470 seconds 
+  Import took 0.078602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00002.png
+  artifactKey: Guid(c6425dd2294848743afd6469c35c62e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00002.png using Guid(c6425dd2294848743afd6469c35c62e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8235b69f903f1c89657e39f74f82f0') in 0.085341 seconds 
+  Import took 0.091265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00011.png
+  artifactKey: Guid(142f284df24b1794caec2d99bb3e2173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00011.png using Guid(142f284df24b1794caec2d99bb3e2173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2b1b3895a04b70c8aff97d037668de') in 0.080632 seconds 
+  Import took 0.084805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015844 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00010.png
+  artifactKey: Guid(9f991b106ce65fa4dbf20b919d4a5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00010.png using Guid(9f991b106ce65fa4dbf20b919d4a5b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3afb8763775f975377fa75f084fa952') in 0.072798 seconds 
+  Import took 0.076851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00003.png
+  artifactKey: Guid(9b9524207bfee22448f0d91f7d433c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00003.png using Guid(9b9524207bfee22448f0d91f7d433c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab160bf598e9bbb9282b81c7bad232cd') in 0.061446 seconds 
+  Import took 0.065277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.654486 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00005.png
+  artifactKey: Guid(ca6bba8331dbd3a4bb85184b5505a727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00005.png using Guid(ca6bba8331dbd3a4bb85184b5505a727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ed5282f303d16cf02e9ae452320e01') in 0.112910 seconds 
+  Import took 0.116955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00001.png
+  artifactKey: Guid(33f1b1cec4caf0142b017ab34fd39ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00001.png using Guid(33f1b1cec4caf0142b017ab34fd39ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb0ac83493525e6d95c2ec944bbf7b6') in 0.075461 seconds 
+  Import took 0.079376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00006.png
+  artifactKey: Guid(e2eb83968b932f348ba5649c21f6bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00006.png using Guid(e2eb83968b932f348ba5649c21f6bf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477ea932673ac680897cc71accb22821') in 0.099830 seconds 
+  Import took 0.104155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00007.png
+  artifactKey: Guid(c812df0cf8c9d3246a6416068d1b34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/mosquito-death/mosquito-death_00007.png using Guid(c812df0cf8c9d3246a6416068d1b34a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca49239d84b4a5f521f428aba5a4d09a') in 0.092096 seconds 
+  Import took 0.097101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00005.png
+  artifactKey: Guid(0f38c78787918024bbe1f30004659f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00005.png using Guid(0f38c78787918024bbe1f30004659f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca74d227f0e90577562ac9902ba1e88') in 0.105310 seconds 
+  Import took 0.108645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00002.png
+  artifactKey: Guid(8e9e24d7d5d936f4ba0da0dcf8d0adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00002.png using Guid(8e9e24d7d5d936f4ba0da0dcf8d0adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705252238eafe4a865f6856a1602b917') in 0.130980 seconds 
+  Import took 0.135502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00006.png
+  artifactKey: Guid(2d31293dfc90bfd42bfb29b22ef40b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00006.png using Guid(2d31293dfc90bfd42bfb29b22ef40b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dd78cd12092479df8ab1f11c420f3a') in 0.078013 seconds 
+  Import took 0.082100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00003.png
+  artifactKey: Guid(ab6ddf0aa7f555f41832d3632f0f626c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00003.png using Guid(ab6ddf0aa7f555f41832d3632f0f626c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778508d04a114f91231a0e63b26b495f') in 0.103012 seconds 
+  Import took 0.106485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00004.png
+  artifactKey: Guid(94432792bfe03114d9f73ba33b4c1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00004.png using Guid(94432792bfe03114d9f73ba33b4c1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285899738fcc4bbdc8795ec379000ed4') in 0.079928 seconds 
+  Import took 0.085845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00000.png
+  artifactKey: Guid(6fa625c8348e5f641967d58a9cbe31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/mosquito-fly_PNG/mosquito-fly_00000.png using Guid(6fa625c8348e5f641967d58a9cbe31b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3da0b56d3f825d3daa51b9f5efc5bc') in 0.119075 seconds 
+  Import took 0.160014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368983 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00007.png
+  artifactKey: Guid(53b9e0166b7190a41b8fca0700b61ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00007.png using Guid(53b9e0166b7190a41b8fca0700b61ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a822eca694a3b9f8b3b24ba87770e035') in 0.149078 seconds 
+  Import took 0.161189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00007.png
+  artifactKey: Guid(e58aae5fd906ed94098814fa94a78fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00007.png using Guid(e58aae5fd906ed94098814fa94a78fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac026713230cf12e0bee38bd177366d2') in 0.169106 seconds 
+  Import took 0.174678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00005.png
+  artifactKey: Guid(eee0907ff30428f45a701f1c05264ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00005.png using Guid(eee0907ff30428f45a701f1c05264ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6fcc9e320b8d1930ea2c19207906f3') in 0.070385 seconds 
+  Import took 0.075061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00001.png
+  artifactKey: Guid(103feac1118f7b141b96b45070de41b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00001.png using Guid(103feac1118f7b141b96b45070de41b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf12774b891948d1fbff71d05765e3c') in 0.115008 seconds 
+  Import took 0.119365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00008.png
+  artifactKey: Guid(e11875afb2bd2e444ab8dc83f344bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00008.png using Guid(e11875afb2bd2e444ab8dc83f344bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e167a05956093e07127a1ac362125c17') in 0.083392 seconds 
+  Import took 0.086877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00004.png
+  artifactKey: Guid(d441120c4dae64a40a97525682ac47fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00004.png using Guid(d441120c4dae64a40a97525682ac47fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33081d5cb6e57390ca160149023bd6') in 0.120581 seconds 
+  Import took 0.124787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_jump.png
+  artifactKey: Guid(80380fe198cd4da5bc824fdfbddf2647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_jump.png using Guid(80380fe198cd4da5bc824fdfbddf2647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14ba5df98cbcf8a3de57b830854468a') in 0.606687 seconds 
+  Import took 0.610341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/kytka1.png
+  artifactKey: Guid(eb90370d65d6be64c8790d66dd1b536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kytka1.png using Guid(eb90370d65d6be64c8790d66dd1b536f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9d3b1f35157820e041e7ef749dd8dd') in 0.099736 seconds 
+  Import took 0.103429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00000.png
+  artifactKey: Guid(36b9bc1742fffe2419306406eca9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00000.png using Guid(36b9bc1742fffe2419306406eca9ee36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47216b37a3a80d96f349f63bd225fa5') in 0.072152 seconds 
+  Import took 0.075760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00006.png
+  artifactKey: Guid(ea450f6379a09f740a97e9b6e134c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00006.png using Guid(ea450f6379a09f740a97e9b6e134c930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d48f78a63318f5b81d8d89ad0eeb9') in 0.050985 seconds 
+  Import took 0.055113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00001.png
+  artifactKey: Guid(c1c822679d89f47448eb3ce5ba972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00001.png using Guid(c1c822679d89f47448eb3ce5ba972f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f9e4816cfd9f52a2567c7a35b074d0') in 0.052866 seconds 
+  Import took 0.056587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00002.png
+  artifactKey: Guid(a117271065fbc7a4bb93a16d9a0858f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00002.png using Guid(a117271065fbc7a4bb93a16d9a0858f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d6eca650a47f95acc3b88a4cb79dfc') in 0.092222 seconds 
+  Import took 0.095539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00004.png
+  artifactKey: Guid(2a540292063b51d47ae44ea92805aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00004.png using Guid(2a540292063b51d47ae44ea92805aad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a0bbc5cb17949fddfe75e77306cdaf') in 0.065159 seconds 
+  Import took 0.069516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00002.png
+  artifactKey: Guid(f344b5726419a014bbd0668bb5b83691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00002.png using Guid(f344b5726419a014bbd0668bb5b83691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d15f69895bcdf9143c682936398710') in 0.045011 seconds 
+  Import took 0.049322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00006.png
+  artifactKey: Guid(db636e541f4a0b948b51bffd9ad0e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00006.png using Guid(db636e541f4a0b948b51bffd9ad0e938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1363f201eecc2b5d9a5fe2b2de5e9219') in 0.049150 seconds 
+  Import took 0.053684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/kytka2.png
+  artifactKey: Guid(68c356bf0bf18324382e000a8f122b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/kytka2.png using Guid(68c356bf0bf18324382e000a8f122b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fd0f93aa35eef4f9bb58118dfc5fa2') in 0.051527 seconds 
+  Import took 0.056027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00000.png
+  artifactKey: Guid(fa0d606655b719849b175477a8e9f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00000.png using Guid(fa0d606655b719849b175477a8e9f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d8bcebc4a56bf9f768aadb871428c1') in 0.051131 seconds 
+  Import took 0.055622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00003.png
+  artifactKey: Guid(faa4b8e6bf317684d97be0f07693a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00003.png using Guid(faa4b8e6bf317684d97be0f07693a2ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de47b03a0d5b5a04dbe04503e8f83a') in 0.058833 seconds 
+  Import took 0.062188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00003.png
+  artifactKey: Guid(0e3ef3da2c73521458877ca2a9781c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/ladybird-fly_PNG/ladybird-fly_00003.png using Guid(0e3ef3da2c73521458877ca2a9781c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc18c309eb2e9ec2f0292a5aa483e9b8') in 0.050409 seconds 
+  Import took 0.053832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00005.png
+  artifactKey: Guid(222819afa2c3dd94fb5dd8f74d7beea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/ladybird-death/ladybird-death_00005.png using Guid(222819afa2c3dd94fb5dd8f74d7beea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3c7827f6e6943ff5216de5ddf7dd64') in 0.054972 seconds 
+  Import took 0.058257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.697931 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_idle.png
+  artifactKey: Guid(3af15dd03d4c4bd6a689f52227db8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_idle.png using Guid(3af15dd03d4c4bd6a689f52227db8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca3db32918c000d3e094b6e45bf3eef') in 0.342213 seconds 
+  Import took 0.348891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.686276 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hold.png
+  artifactKey: Guid(086d060fbf2143288d5e65e2bc161d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hold.png using Guid(086d060fbf2143288d5e65e2bc161d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48ab3b03a788fa63402f24c0d56c96') in 0.504815 seconds 
+  Import took 0.512196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bullets.png
+  artifactKey: Guid(65d6754bd71145f599df0438b9d64757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bullets.png using Guid(65d6754bd71145f599df0438b9d64757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0ad253f278845b36a3a5d2d179ebd2') in 0.066685 seconds 
+  Import took 0.070917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00006.png
+  artifactKey: Guid(e6af74c0e0ac8b542bb87cb98ddd48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00006.png using Guid(e6af74c0e0ac8b542bb87cb98ddd48d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623be1952ee0c33ea718722cf3b92ea') in 0.073639 seconds 
+  Import took 0.077208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_explosion.png
+  artifactKey: Guid(0e025c98e62649a7aa415b9ec708cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_explosion.png using Guid(0e025c98e62649a7aa415b9ec708cb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef79e26fdf4add848264b4425847b7c2') in 0.142359 seconds 
+  Import took 0.147091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00000.png
+  artifactKey: Guid(340ed9463c88e894487b4570ea7d4b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00000.png using Guid(340ed9463c88e894487b4570ea7d4b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd779a06df9f035a199498acf9556680') in 0.076893 seconds 
+  Import took 0.081126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00004.png
+  artifactKey: Guid(90619c1c96e402045b33aaef4efd1d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00004.png using Guid(90619c1c96e402045b33aaef4efd1d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5881cb500f74baccb0526d6b42f6823b') in 0.092681 seconds 
+  Import took 0.096100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00007.png
+  artifactKey: Guid(ecd7cd66e851c5f47bbe0c3c8051935f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00007.png using Guid(ecd7cd66e851c5f47bbe0c3c8051935f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8407f6451d77eaa46720c6187e7345d1') in 0.057068 seconds 
+  Import took 0.060530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00002.png
+  artifactKey: Guid(6e893e56e1024fa4db125522c37669ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00002.png using Guid(6e893e56e1024fa4db125522c37669ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5df0c5d2838c61c6f7790a43de684') in 0.084761 seconds 
+  Import took 0.088228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit1.png
+  artifactKey: Guid(ba0d51ea616c4278a040cad64fc8b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit1.png using Guid(ba0d51ea616c4278a040cad64fc8b434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7d0d3c5ce6d7ca2da46dabd4b3bc54') in 0.226835 seconds 
+  Import took 0.231541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/gadfly-fly_PNG/Gadfly-fly_00001.png
+  artifactKey: Guid(74444946fd7781047aaa162e1e442608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/gadfly-fly_PNG/Gadfly-fly_00001.png using Guid(74444946fd7781047aaa162e1e442608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f26b7dbe85d5ce58923ca469fff9d81') in 0.053896 seconds 
+  Import took 0.058110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_duck.png
+  artifactKey: Guid(7f84e446fe184e4291416b3b7abef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_duck.png using Guid(7f84e446fe184e4291416b3b7abef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e3fd7937abfe0ce5af16c280e87a9b') in 0.313050 seconds 
+  Import took 0.317638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_crawl.png
+  artifactKey: Guid(e65a0c75db6341bba25bcc1507c510d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_crawl.png using Guid(e65a0c75db6341bba25bcc1507c510d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc91e49d0397379f46b2d9ea87d89596') in 0.289351 seconds 
+  Import took 0.293311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/back.jpg
+  artifactKey: Guid(d45f0597317de374da780acd3568e913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/back.jpg using Guid(d45f0597317de374da780acd3568e913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31237917c6ae31cf8b8ea24d533cb1f6') in 0.174057 seconds 
+  Import took 0.178043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00001.png
+  artifactKey: Guid(5b1ad613af5574541bb63731c61a9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00001.png using Guid(5b1ad613af5574541bb63731c61a9982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd928931549e16038522c1063c119b441') in 0.085880 seconds 
+  Import took 0.090438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00003.png
+  artifactKey: Guid(6513d52a2857a93448bef59a54e3ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00003.png using Guid(6513d52a2857a93448bef59a54e3ad8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b5c594505317a6dd6dc73637b6b7ae') in 0.083502 seconds 
+  Import took 0.087198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00005.png
+  artifactKey: Guid(401d758b6fa25d2468220d0309116bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00005.png using Guid(401d758b6fa25d2468220d0309116bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4834b067733ee789ab1b9a082be1e538') in 0.066890 seconds 
+  Import took 0.070162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00006.png
+  artifactKey: Guid(6c639c217c5725748a1bc2b6ec562b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00006.png using Guid(6c639c217c5725748a1bc2b6ec562b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042c6129f00afdbfa4068dcb65dabaa9') in 0.077739 seconds 
+  Import took 0.081382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00006.png
+  artifactKey: Guid(27f195a44d54bde4d8c4028e87e07b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00006.png using Guid(27f195a44d54bde4d8c4028e87e07b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b6839e7ae9213f2cf9eeb4da0bde0') in 0.067882 seconds 
+  Import took 0.072997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00000.png
+  artifactKey: Guid(0bc48879e1e140f46b2f1f4dc6f891a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00000.png using Guid(0bc48879e1e140f46b2f1f4dc6f891a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcf051d06fa8f0c6a0a743bbbab3129') in 0.089764 seconds 
+  Import took 0.098624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00000.png
+  artifactKey: Guid(27c047157d7aaf24fa8090174c339d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00000.png using Guid(27c047157d7aaf24fa8090174c339d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbb0bb65ad2f95e95243329349e27b2') in 0.158621 seconds 
+  Import took 0.169515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00007.png
+  artifactKey: Guid(831a4b470102f224da8c37e8053df40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00007.png using Guid(831a4b470102f224da8c37e8053df40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35257b813d2d633ed63b5ca9d97ce7b3') in 0.081329 seconds 
+  Import took 0.087858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00004.png
+  artifactKey: Guid(a2cf7c0fa8458a447b8dba9b362bdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00004.png using Guid(a2cf7c0fa8458a447b8dba9b362bdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5db94b3dd69674a758d004da02791d1') in 0.055902 seconds 
+  Import took 0.059317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_carry.png
+  artifactKey: Guid(251a4df0aad6433fa2972426888bb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_carry.png using Guid(251a4df0aad6433fa2972426888bb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1114dee14d5f6651be5c9291a2f7aa65') in 0.374532 seconds 
+  Import took 0.381182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00008.png
+  artifactKey: Guid(456107bc76c2af8488fb8ca5f4239d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00008.png using Guid(456107bc76c2af8488fb8ca5f4239d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfef394f8d954cd0fc4198e7a489a71') in 0.084402 seconds 
+  Import took 0.088220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_carry.png
+  artifactKey: Guid(4f53b7b571f04e199fa08954525c5a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_carry.png using Guid(4f53b7b571f04e199fa08954525c5a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451c3ab1cb90410481669d9e7d826039') in 0.488919 seconds 
+  Import took 0.493106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_bow.png
+  artifactKey: Guid(2e3eac0d282c45fb8cd820e1cf9dba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_bow.png using Guid(2e3eac0d282c45fb8cd820e1cf9dba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6a24838b81f67c8dbc8dd18f94a861') in 0.078996 seconds 
+  Import took 0.082531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00008.png
+  artifactKey: Guid(c2eea226dd9eec14a84593748bc51dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00008.png using Guid(c2eea226dd9eec14a84593748bc51dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec39fba017a724aafcd6de2d2ff5c18c') in 0.060227 seconds 
+  Import took 0.063944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00003.png
+  artifactKey: Guid(e5071d6a12a32e04b98a04f3ad665cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00003.png using Guid(e5071d6a12a32e04b98a04f3ad665cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93eb7e22a45d7eac1398cabb9e4f07b6') in 0.070576 seconds 
+  Import took 0.074128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_bow.png
+  artifactKey: Guid(289b9f643627439b894c4a9654c16d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_bow.png using Guid(289b9f643627439b894c4a9654c16d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b33f140dce133c7c30f8bc9b499156') in 0.156541 seconds 
+  Import took 0.160024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00005.png
+  artifactKey: Guid(6ed3589de214d0545b2c81980ddaea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00005.png using Guid(6ed3589de214d0545b2c81980ddaea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc55b88617cf0952d23d4c177490c0e') in 0.082585 seconds 
+  Import took 0.086031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_hold.png
+  artifactKey: Guid(2da47b5bcee54d2289496921707b05b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_hold.png using Guid(2da47b5bcee54d2289496921707b05b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c99f0b53361a02843b759a5a114c09') in 0.521833 seconds 
+  Import took 0.525877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00008.png
+  artifactKey: Guid(c8a785942aa4ab84a9a19bd7b731703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00008.png using Guid(c8a785942aa4ab84a9a19bd7b731703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b923d73dbda4e678226afac1118a34c8') in 0.059247 seconds 
+  Import took 0.062973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00002.png
+  artifactKey: Guid(de9a070040e0ce347b142402f39fef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00002.png using Guid(de9a070040e0ce347b142402f39fef0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9115cbd382d1f4c7d8c9a06601c493f') in 0.058779 seconds 
+  Import took 0.062231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00005.png
+  artifactKey: Guid(8d77a8edf16af9c40ab769a0a73132ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00005.png using Guid(8d77a8edf16af9c40ab769a0a73132ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dd032f53a8e8b93a689ad6cd2ee5ba') in 0.061084 seconds 
+  Import took 0.065072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00009.png
+  artifactKey: Guid(c912a0dd13c8375468b76d0d3c317f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00009.png using Guid(c912a0dd13c8375468b76d0d3c317f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22496a065ce08334249013a14b2ac7ab') in 0.061703 seconds 
+  Import took 0.065429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00005.png
+  artifactKey: Guid(5d672f7b9c652aa40923c29710d2258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00005.png using Guid(5d672f7b9c652aa40923c29710d2258a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a832325a8ad231a462d2f27e6ce8692') in 0.055848 seconds 
+  Import took 0.059340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00009.png
+  artifactKey: Guid(fa6413db2851c8d48a1e94254f2dac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00009.png using Guid(fa6413db2851c8d48a1e94254f2dac80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf244ca7230c44a9a31537106943f1ea') in 0.069766 seconds 
+  Import took 0.073938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00004.png
+  artifactKey: Guid(ecceb424c8274554d903ff9a9868cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00004.png using Guid(ecceb424c8274554d903ff9a9868cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5830771a10daf7ce66641d3a0f4e7c0') in 0.057990 seconds 
+  Import took 0.061374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00001.png
+  artifactKey: Guid(2f649a4f9d97cd542a7c7c3ab3258fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00001.png using Guid(2f649a4f9d97cd542a7c7c3ab3258fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce0d51a960835f307edca89cff19771') in 0.048510 seconds 
+  Import took 0.052661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00002.png
+  artifactKey: Guid(e31359426d7bc0a40a450176554f3267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00002.png using Guid(e31359426d7bc0a40a450176554f3267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ac9ae5442f418c6f86e92f47f26f71') in 0.063894 seconds 
+  Import took 0.069339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00003.png
+  artifactKey: Guid(914ed69171a00ea4c8d016f3568a7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00003.png using Guid(914ed69171a00ea4c8d016f3568a7416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4001170759f73a66bbd91b54e5ef12') in 0.108362 seconds 
+  Import took 0.128739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00004.png
+  artifactKey: Guid(926e1d13c5cb68b4aa150e6e172e1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00004.png using Guid(926e1d13c5cb68b4aa150e6e172e1530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4621709571fb1349a13eed4d0e1ecf87') in 0.097148 seconds 
+  Import took 0.100916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00010.png
+  artifactKey: Guid(d5faaef904e6e9746b1a831ba1bbc499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00010.png using Guid(d5faaef904e6e9746b1a831ba1bbc499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d2ca6cc05654b953af7ce68faceba5') in 0.054109 seconds 
+  Import took 0.058298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit2.png
+  artifactKey: Guid(62b069406f934592b314206fd747d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit2.png using Guid(62b069406f934592b314206fd747d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dae0d7dde7a4e11390cc8de56721dcf') in 0.483796 seconds 
+  Import took 0.487284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00007.png
+  artifactKey: Guid(0f46ddbe0fb4e9745b84fb220eb802e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00007.png using Guid(0f46ddbe0fb4e9745b84fb220eb802e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31559d183fb0833d241772a87890f5b') in 0.046716 seconds 
+  Import took 0.050074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00004.png
+  artifactKey: Guid(54d4f5e74f23149409201caeb1f27bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00004.png using Guid(54d4f5e74f23149409201caeb1f27bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f7fd1235fc890dbf1f3944527dd3d0') in 0.074806 seconds 
+  Import took 0.078370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00001.png
+  artifactKey: Guid(cab744cef9559f9498c05485fc4ba279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00001.png using Guid(cab744cef9559f9498c05485fc4ba279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b169c403c549bddf47cc715baf973e') in 0.049606 seconds 
+  Import took 0.053870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00002.png
+  artifactKey: Guid(5b8b412d3125cbc40babb8370d37de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00002.png using Guid(5b8b412d3125cbc40babb8370d37de57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b1a2094141eb3cb0e2217d2b9c1261') in 0.069278 seconds 
+  Import took 0.077145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00001.png
+  artifactKey: Guid(9adff802ab5a5a34d8b5d1b6ecdbb0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00001.png using Guid(9adff802ab5a5a34d8b5d1b6ecdbb0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ae5f5a0d4edc9db12f9de8e6e50e34') in 0.068344 seconds 
+  Import took 0.073643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00010.png
+  artifactKey: Guid(00ee527edab507b46b4bc297fa51c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00010.png using Guid(00ee527edab507b46b4bc297fa51c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d1154982de72c5a2a3eae15cce199') in 0.061904 seconds 
+  Import took 0.068498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_ground.png
+  artifactKey: Guid(99d3dc90162046689902486c0201635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bomb_ground.png using Guid(99d3dc90162046689902486c0201635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3a7c0fcd01dba47e67e33800393b44') in 0.168927 seconds 
+  Import took 0.174812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00007.png
+  artifactKey: Guid(159c0014a7e202b4792bdf9d50730d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00007.png using Guid(159c0014a7e202b4792bdf9d50730d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd00a494f55633bc16429029c84737d3d') in 0.063038 seconds 
+  Import took 0.067903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00006.png
+  artifactKey: Guid(d92bcda06c0e57d43960ac6e29976bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00006.png using Guid(d92bcda06c0e57d43960ac6e29976bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e789854011beb305a130093bf9a5e09') in 0.080578 seconds 
+  Import took 0.087283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00005.png
+  artifactKey: Guid(06184c4e8bd0dea4db0a5ecfb254b150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00005.png using Guid(06184c4e8bd0dea4db0a5ecfb254b150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abc02fe324edf2e641e205a91eb4c1f') in 0.079441 seconds 
+  Import took 0.084218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_desert.png
+  artifactKey: Guid(dbccab030dae49d99e5902bf54f4ab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_desert.png using Guid(dbccab030dae49d99e5902bf54f4ab6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a90d96e086ed10870b567cafc1dcb0f') in 0.409829 seconds 
+  Import took 0.416102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hammer.png
+  artifactKey: Guid(dc99c75fe713490189dfd849f2ec50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hammer.png using Guid(dc99c75fe713490189dfd849f2ec50e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05deccca5d5457a993c2e11af5e3968') in 0.538849 seconds 
+  Import took 0.543083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00002.png
+  artifactKey: Guid(6e5242a19976c544fb0918a942f4989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00002.png using Guid(6e5242a19976c544fb0918a942f4989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b1d65570a607323bb6ae8cf6ceda55') in 0.060258 seconds 
+  Import took 0.064124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00003.png
+  artifactKey: Guid(84c919df87af9a0439f7bbf841e0448f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00003.png using Guid(84c919df87af9a0439f7bbf841e0448f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f9bd77cab8bc31da3803f2b176ad10') in 0.050395 seconds 
+  Import took 0.054831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00000.png
+  artifactKey: Guid(01dba2769c192c14c9cf187d15be65ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00000.png using Guid(01dba2769c192c14c9cf187d15be65ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a686bb78a004180ffbe523e221178cdc') in 0.044774 seconds 
+  Import took 0.049325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00004.png
+  artifactKey: Guid(443a381b6a2d46c48a8532ea8ccce6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/dragonfly-fly_PNG/dragonfly-fly_00004.png using Guid(443a381b6a2d46c48a8532ea8ccce6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5e0cd6f2a8b5768f20efaebd1b2e83') in 0.046238 seconds 
+  Import took 0.060836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00001.png
+  artifactKey: Guid(53696f15855d29f409fc69473855e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00001.png using Guid(53696f15855d29f409fc69473855e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8abcb12269c5e5411daa7f89e741962') in 0.082833 seconds 
+  Import took 0.087193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_hammer.png
+  artifactKey: Guid(ebcd713d84c744f78b6619c24533b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_hammer.png using Guid(ebcd713d84c744f78b6619c24533b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca1d0e8ccc74d5f45041189e70cbad4') in 0.470314 seconds 
+  Import took 0.474221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00006.png
+  artifactKey: Guid(86b5e83aecf971c49896ec1d446185b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00006.png using Guid(86b5e83aecf971c49896ec1d446185b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7346ff8e138ba2bf09747aea05b362a9') in 0.148987 seconds 
+  Import took 0.153862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00003.png
+  artifactKey: Guid(fe7ad5fc696e14a4d847bc21089f22c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/gadfly-death/gadfly-death_00003.png using Guid(fe7ad5fc696e14a4d847bc21089f22c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea49d10a549e893f435630f4f345525f') in 0.144251 seconds 
+  Import took 0.154562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002174 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/gadfly-fly_PNG/Gadfly-fly_00000.png
+  artifactKey: Guid(c472522141828e24aa30e20596c0be1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/gadfly-fly_PNG/Gadfly-fly_00000.png using Guid(c472522141828e24aa30e20596c0be1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691f9ef51e9c7fd6b9e690d40efb7528') in 0.054543 seconds 
+  Import took 0.070977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00006.png
+  artifactKey: Guid(a9d4912f3c49e534e82e41f9191f2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00006.png using Guid(a9d4912f3c49e534e82e41f9191f2a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de75e853caeed17bc0cac884cc9f0846') in 0.106597 seconds 
+  Import took 0.112185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00002.png
+  artifactKey: Guid(134fea6a7b1ba8342b06f5930f3b18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/crane-fly-fly_PNG/crane-fly-fly_00002.png using Guid(134fea6a7b1ba8342b06f5930f3b18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67bcbd7bee0cc54559844bc79c9ecce') in 0.111022 seconds 
+  Import took 0.118473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00007.png
+  artifactKey: Guid(586f67f7972026d4c9fde29ef40333fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/bumblebee-fly_PNG/bumblebee-fly_00007.png using Guid(586f67f7972026d4c9fde29ef40333fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb04a07fe943e5c4b61f9e708015af2') in 0.119051 seconds 
+  Import took 0.125208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00003.png
+  artifactKey: Guid(5030506445d868245aac047d613a903e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/bumblebee-death/bumblebee-death_00003.png using Guid(5030506445d868245aac047d613a903e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b201cf032d77f7928e9188d8d89f5568') in 0.136831 seconds 
+  Import took 0.145951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00005.png
+  artifactKey: Guid(f8d88f0cfd1388145936b7992112bb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-fly/beetle-fly_PNG/Beetle-fly_00005.png using Guid(f8d88f0cfd1388145936b7992112bb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633f34cbc8c2d2a3332e14c0ca73f55a') in 0.068804 seconds 
+  Import took 0.082805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00007.png
+  artifactKey: Guid(3ca8e675b57c7e04281aec893ae1e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chuchilko/Bugs_assets/Sprites/_Animation-death/beetle-death/beetle-death_00007.png using Guid(3ca8e675b57c7e04281aec893ae1e706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205289808b848704e30bee57c29056da') in 0.066558 seconds 
+  Import took 0.071057 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
