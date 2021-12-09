@@ -8,6 +8,7 @@ public class AttackingPlant : MonoBehaviour
     private Animator animator;
 
 
+    public Transform posToShootFrom;
     public float timeBetweenAttacks;
     public GameObject projectile;
 
@@ -24,6 +25,11 @@ public class AttackingPlant : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenAttacks);
             animator.SetTrigger("attack");
         }
+    }
+
+    public void Shoot()
+    {
+        Instantiate(projectile, posToShootFrom);
     }
     
 }

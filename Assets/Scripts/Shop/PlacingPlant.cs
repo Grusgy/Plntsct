@@ -95,6 +95,12 @@ public class PlacingPlant : MonoBehaviour
             }
             
         }
+        if(Input.GetMouseButtonDown(1))
+        {
+            Destroy(currentPlaceableObject.gameObject);
+            print("destroied");
+
+        }
     }
 
 

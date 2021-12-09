@@ -65,6 +65,15 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -6628414004274166170, guid: 358a0a27c112460cbad281c2a4f50e42, type: 3}
+    - time: 1.05
+      value: {fileID: -6628414004274166170, guid: 358a0a27c112460cbad281c2a4f50e42, type: 3}
+    attribute: m_Sprite
+    path: Weapon
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 20
   m_WrapMode: 0
   m_Bounds:
@@ -74,6 +83,13 @@ AnimationClip:
     genericBindings:
     - serializedVersion: 2
       path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 1855955664
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -101,12 +117,14 @@ AnimationClip:
     - {fileID: -789775055085497363, guid: 086d060fbf2143288d5e65e2bc161d36, type: 3}
     - {fileID: 493441144538280828, guid: 086d060fbf2143288d5e65e2bc161d36, type: 3}
     - {fileID: 4341526808264819807, guid: 086d060fbf2143288d5e65e2bc161d36, type: 3}
+    - {fileID: -6628414004274166170, guid: 358a0a27c112460cbad281c2a4f50e42, type: 3}
+    - {fileID: -6628414004274166170, guid: 358a0a27c112460cbad281c2a4f50e42, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.05
+    m_StopTime: 1.0999999
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

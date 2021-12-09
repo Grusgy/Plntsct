@@ -9,6 +9,7 @@ public class EarningPlant : MonoBehaviour
 
     public float timeBetweenEarns;
     public int earnAmount;
+    public ParticleSystem particle;
 
     private void Start()
     {
@@ -21,7 +22,7 @@ public class EarningPlant : MonoBehaviour
             coins.coins += earnAmount;
             coins.SetCoinsText();
             yield return new WaitForSeconds(timeBetweenEarns);
-
+            particle.Play();
         }
     }
 }
