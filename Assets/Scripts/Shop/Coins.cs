@@ -17,4 +17,9 @@ public class Coins : MonoBehaviour
     {
         coinText.text = coins.ToString();
     }
+
+    private void Update()
+    {
+        coinText.text = coins.ToString();
+    }
 }

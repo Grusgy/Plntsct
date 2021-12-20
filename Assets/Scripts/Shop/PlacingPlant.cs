@@ -41,6 +41,7 @@ public class PlacingPlant : MonoBehaviour
         else
         {
             currentPlaceableObject = Instantiate(plant);
+            currentPlaceableObject.GetComponent<Plant>().boxCollider.enabled = false;
 
         }
 
@@ -84,6 +85,7 @@ public class PlacingPlant : MonoBehaviour
                         {
                             StartCoroutine(shootingPlant.ShootCaroutine());
                         }
+                        currentPlaceableObject.GetComponent<Plant>().boxCollider.enabled = true;
                         currentPlaceableObject = null;
                     }
                 }

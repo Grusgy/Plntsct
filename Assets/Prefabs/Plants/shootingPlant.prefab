@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 50
+  boxCollider: {fileID: 5953110822092946891}
   price: 50
 --- !u!114 &4554970173825700570
 MonoBehaviour:
@@ -155,8 +156,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posToShootFrom: {fileID: 4626592910880180927}
-  timeBetweenAttacks: 3
+  timeBetweenAttacks: 4
+  damage: 0
   projectile: {fileID: 1769657368665355904, guid: 9a576b5444db5804cbd600f76c37a5fb, type: 3}
+  enemy: {fileID: 0}
 --- !u!50 &7961802189909593643
 Rigidbody2D:
   serializedVersion: 4

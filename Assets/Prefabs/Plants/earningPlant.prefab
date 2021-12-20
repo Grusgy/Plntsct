@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 30
+  boxCollider: {fileID: 5953110822092946891}
   price: 30
 --- !u!50 &7961802189909593643
 Rigidbody2D:
